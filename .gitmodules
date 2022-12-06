@@ -1,0 +1,3 @@
+[submodule "avue-form-design"]
+	path = avue-form-design
+	url = git@github.com:sscfaith/avue-form-design.git
