@@ -2,3 +2,9 @@
 [submodule "lowcode-platforms/avue-form-design"]
 	path = lowcode-platforms/avue-form-design
 	url = git@github.com:sscfaith/avue-form-design.git
+[submodule "mini-vue/mini-vue"]
+	path = mini-vue/mini-vue
+	url = git@github.com:cuixiaorui/mini-vue.git
+[submodule "mini-vue/guide-mini-vue"]
+	path = mini-vue/guide-mini-vue
+	url = git@github.com:cuixiaorui/guide-mini-vue.git
