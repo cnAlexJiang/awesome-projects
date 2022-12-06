@@ -1,1 +1,4 @@
  
+[submodule "lowcode-platforms/avue-form-design"]
+	path = lowcode-platforms/avue-form-design
+	url = git@github.com:sscfaith/avue-form-design.git
