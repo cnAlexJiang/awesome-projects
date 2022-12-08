@@ -8,31 +8,32 @@ class Dep {
     this.effects = new Set();
     this._val = val;
   }
-  depend () {
+  depend() {
     if (currentEffect) {
       this.effects.add(currentEffect);
     }
   }
-  get value () {
+  get value() {
     this.depend();
     return this._val;
   }
-  set value (newValue) {
+  set value(newValue) {
     this._val = newValue
     this.notify()
   }
   // 2 触发依赖
-  notify () {
+  notify() {
     this.effects.forEach((effect) => effect())
   }
 }
-export function effectWatch (effect) {
+export function effectWatch(effect) {
   // 收集依赖
   currentEffect = effect;
   effect()
   currentEffect = null;
 }
 
+export const ref = (v) => (new Dep(v))
 
 // ref  很像了
 // const dep = new Dep(10);
@@ -60,7 +61,7 @@ export function effectWatch (effect) {
 // 全局引用保存
 const targetMap = new Map();
 
-function getDep (target, key) {
+function getDep(target, key) {
   let depsMap = targetMap.get(target);
   if (!depsMap) {
     depsMap = new Map();
@@ -77,10 +78,10 @@ function getDep (target, key) {
 }
 
 // proxy
-export function reactive (raw) {
+export function reactive(raw) {
   return new Proxy(raw, {
-    get (target, key) {
-      console.log(key, '=', Reflect.get(target, key))
+    get(target, key) {
+      console.log('target=', target, 'key=', key)
       // key - dep
       // dep  存在哪里
       // let depsMap = targetMap.get(target);
@@ -102,9 +103,9 @@ export function reactive (raw) {
       // return target[key] //规范不推荐
       return Reflect.get(target, key)
     },
-    set (target, key, value) {
+    set(target, key, value) {
       const dep = getDep(target, key)
-      const result =  Reflect.set(target, key, value)
+      const result = Reflect.set(target, key, value)
       console.log(key, '=', value)
       dep.notify()
       return result
