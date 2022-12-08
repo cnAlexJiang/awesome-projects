@@ -8,3 +8,15 @@
 [submodule "mini-vue/guide-mini-vue"]
 	path = mini-vue/guide-mini-vue
 	url = git@github.com:cuixiaorui/guide-mini-vue.git
+[submodule "codesandbox-playground/codesandbox-client"]
+	path = codesandbox-playground/codesandbox-client
+	url = git@github.com:Zian502/codesandbox-client.git
+[submodule "ng-learn/ngx-admin"]
+	path = ng-learn/ngx-admin
+	url = git@github.com:akveo/ngx-admin.git
+[submodule "antv-projects/G6"]
+	path = antv-projects/G6
+	url = git@github.com:antvis/G6.git
+[submodule "antv-projects/X6"]
+	path = antv-projects/X6
+	url = git@github.com:antvis/X6.git
