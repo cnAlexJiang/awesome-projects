@@ -19,19 +19,20 @@ export default {
     // const div = document.createElement('div')
     // div.innerHTML = context.state.count;
     // return div
+
+    const children = [...Array(context.state.count).keys()].map(item => h('p', null, 'item-' + item))
+    console.log(11, children)
     return h('div', {
-      id: 'app -id',
+      id: 'app -id' + context.state.count,
       class: 'showTime'
-    }, [
-      h('p', null, 'heihei'),
-      h('p', null, context.state.count + ''),
-      h('p', null, 'hahah'),
-    ])
+    }, children)
   },
+
+
   setup() {
     // a = 响应式数据
     const state = reactive({
-      count: 0
+      count: 1
     })
     window.state = state
     return { state }
