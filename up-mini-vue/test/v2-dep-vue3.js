@@ -1,12 +1,9 @@
 // v3.0
 // a 变了  b 自动变更
-import { effect, reactive, ref } from '../node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js'
-
+const { effect, reactive, ref } = require('@vue/reactivity')
 
 // reactive  声明响应式对象
 let a = reactive({ value: 1 })
-console.log('a=', a)
-
 let c = ref(1)
 console.log('c=', c)
 console.log('a=', a, 'c=', c)

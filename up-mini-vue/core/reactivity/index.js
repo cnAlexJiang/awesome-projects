@@ -3,15 +3,19 @@
 // 依赖
 let currentEffect;
 class Dep {
-  // 1 收集依赖
   constructor(val) {
     this.effects = new Set();
     this._val = val;
   }
+  // 1 收集依赖
   depend() {
     if (currentEffect) {
       this.effects.add(currentEffect);
     }
+  }
+  // 2 触发依赖
+  notify() {
+    this.effects.forEach((effect) => effect())
   }
   get value() {
     this.depend();
@@ -21,10 +25,6 @@ class Dep {
     this._val = newValue
     this.notify()
   }
-  // 2 触发依赖
-  notify() {
-    this.effects.forEach((effect) => effect())
-  }
 }
 export function effectWatch(effect) {
   // 收集依赖
@@ -33,6 +33,7 @@ export function effectWatch(effect) {
   currentEffect = null;
 }
 
+// 模拟ref
 export const ref = (v) => (new Dep(v))
 
 // ref  很像了
@@ -60,7 +61,6 @@ export const ref = (v) => (new Dep(v))
 
 // 全局引用保存
 const targetMap = new Map();
-
 function getDep(target, key) {
   let depsMap = targetMap.get(target);
   if (!depsMap) {
@@ -76,7 +76,6 @@ function getDep(target, key) {
 
   return dep
 }
-
 // proxy
 export function reactive(raw) {
   return new Proxy(raw, {
