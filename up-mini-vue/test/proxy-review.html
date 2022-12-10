@@ -16,11 +16,13 @@
 <script>
     let target = {
         a: 1,
-        b: 2
+        b: 2,
+        c: { d: { e: { f: 1 } } }
     }
     let proxy = new Proxy(target, {
         get(target, key) {
-            console.log('do get')
+            console.log('do get', target, key)
+            return target[key]
             return Reflect.get(target, key)
         },
         set(target, key, value) {
@@ -28,8 +30,9 @@
             return Reflect.set(target, key, value)
         }
     })
-
-    proxy.a
+    window.temp1 = target
+    window.temp2 = proxy
+    console.log(' proxy.c.d', proxy.c.d)
 
 </script>
 
