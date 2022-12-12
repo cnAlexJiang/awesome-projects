@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    how does proxy performance
+
+</body>
+<script>
+    let target = {
+        a: 1,
+        b: 2,
+        c: { d: { e: { f: 1 } } }
+    }
+    let proxy = new Proxy(target, {
+        get(target, key) {
+            console.log('do get', target, key)
+            return target[key]
+            return Reflect.get(target, key)
+        },
+        set(target, key, value) {
+            console.log('do set')
+            return Reflect.set(target, key, value)
+        }
+    })
+    window.temp1 = target
+    window.temp2 = proxy
+    console.log(' proxy.c.d', proxy.c.d)
+
+</script>
+
+</html>
