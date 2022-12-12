@@ -21,3 +21,6 @@
 	path = antv-projects/X6
 	url = git@github.com:antvis/X6.git
  
+[submodule "antv-projects/G"]
+	path = antv-projects/G
+	url = git@github.com:antvis/G.git
