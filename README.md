@@ -8,7 +8,7 @@
 - git submodule add xx xx 
 - git submodule
 - git submodule update
-
+- git rm --cached assets
 # 只拉一层
  - git clone 中加入参数 --depth=1，只拉取最近的一个 revision.
  ```
