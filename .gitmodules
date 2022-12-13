@@ -24,3 +24,6 @@
 [submodule "antv-projects/G"]
 	path = antv-projects/G
 	url = git@github.com:antvis/G.git
+[submodule "fe-source/source-tour"]
+	path = fe-source/source-tour
+	url = git@github.com:course-dasheng/source-tour.git
