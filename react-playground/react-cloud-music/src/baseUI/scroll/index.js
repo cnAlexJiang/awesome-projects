@@ -2,6 +2,8 @@ import React, { forwardRef, useState, useEffect, useRef, useImperativeHandle } f
 import PropTypes from "prop-types"
 import BScroll from "better-scroll"
 import styled from 'styled-components';
+import Loading2 from '../loading-v2/index';
+import { debounce } from "../../api/utils";
 
 const ScrollContainer = styled.div`
   width: 100%;
@@ -93,9 +95,15 @@ const Scroll = forwardRef((props, ref) => {
   }));
 
 
+  const PullUpdisplayStyle = pullUpLoading ? { display: "" } : { display: "none" };
+  const PullDowndisplayStyle = pullDownLoading ? { display: "" } : { display: "none" };
   return (
     <ScrollContainer ref={scrollContaninerRef}>
       {props.children}
+      {/* 滑到底部加载动画 */}
+      <PullUpLoading style={PullUpdisplayStyle}><Loading></Loading></PullUpLoading>
+      {/* 顶部下拉刷新动画 */}
+      <PullDownLoading style={PullDowndisplayStyle}><LoadingV2></LoadingV2></PullDownLoading>
     </ScrollContainer>
   );
 })
