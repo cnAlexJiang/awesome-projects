@@ -27,3 +27,15 @@
 [submodule "fe-source/source-tour"]
 	path = fe-source/source-tour
 	url = git@github.com:course-dasheng/source-tour.git
+[submodule "gin-vue-admins/form-generator"]
+	path = gin-vue-admins/form-generator
+	url = git@github.com:flipped-aurora/form-generator.git
+[submodule "gin-vue-admins/gvaWebsite"]
+	path = gin-vue-admins/gvaWebsite
+	url = git@github.com:flipped-aurora/gvaWebsite.git
+[submodule "gin-vue-admins/gin-vue-admin.com"]
+	path = gin-vue-admins/gin-vue-admin.com
+	url = git@github.com:flipped-aurora/gin-vue-admin.com.git
+[submodule "react-playground/react-beautiful-dnd"]
+	path = react-playground/react-beautiful-dnd
+	url = git@github.com:atlassian/react-beautiful-dnd.git
