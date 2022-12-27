@@ -39,3 +39,9 @@
 [submodule "react-playground/react-beautiful-dnd"]
 	path = react-playground/react-beautiful-dnd
 	url = git@github.com:atlassian/react-beautiful-dnd.git
+[submodule "sa-projects/pet-borad"]
+	path = sa-projects/pet-borad
+	url = git@gitee.com:zhai-duyi/pet-borad.git
+[submodule "imilate-vue-playground/repl"]
+	path = imilate-vue-playground/repl
+	url = git@github.com:vuejs/repl.git
