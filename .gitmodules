@@ -45,3 +45,6 @@
 [submodule "imilate-vue-playground/repl"]
 	path = imilate-vue-playground/repl
 	url = git@github.com:vuejs/repl.git
+[submodule "ioc-playground/ioc-container"]
+	path = ioc-playground/ioc-container
+	url = git@github.com:fengshi123/ioc-container.git
