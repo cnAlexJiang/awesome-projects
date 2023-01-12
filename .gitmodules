@@ -48,3 +48,9 @@
 [submodule "ioc-playground/ioc-container"]
 	path = ioc-playground/ioc-container
 	url = git@github.com:fengshi123/ioc-container.git
+[submodule "graphql-use/dota_demo"]
+	path = graphql-use/dota_demo
+	url = git@gitee.com:wpsw/dota_demo.git
+[submodule "fe-test/vue3-dida"]
+	path = fe-test/vue3-dida
+	url = git@github.com:cuixiaorui/vue3-dida.git
