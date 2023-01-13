@@ -20,3 +20,6 @@
 [submodule "antv-projects/X6"]
 	path = antv-projects/X6
 	url = git@github.com:antvis/X6.git
+[submodule "imilate-vue-playground/vue2-mini"]
+	path = imilate-vue-playground/vue2-mini
+	url = git@github.com:DesBisous/vue2-mini.git
