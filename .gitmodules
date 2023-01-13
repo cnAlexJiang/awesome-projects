@@ -23,3 +23,31 @@
 [submodule "imilate-vue-playground/vue2-mini"]
 	path = imilate-vue-playground/vue2-mini
 	url = git@github.com:DesBisous/vue2-mini.git
+ 
+[submodule "antv-projects/G"]
+	path = antv-projects/G
+	url = git@github.com:antvis/G.git
+[submodule "fe-source/source-tour"]
+	path = fe-source/source-tour
+	url = git@github.com:course-dasheng/source-tour.git
+[submodule "gin-vue-admins/form-generator"]
+	path = gin-vue-admins/form-generator
+	url = git@github.com:flipped-aurora/form-generator.git
+[submodule "gin-vue-admins/gvaWebsite"]
+	path = gin-vue-admins/gvaWebsite
+	url = git@github.com:flipped-aurora/gvaWebsite.git
+[submodule "gin-vue-admins/gin-vue-admin.com"]
+	path = gin-vue-admins/gin-vue-admin.com
+	url = git@github.com:flipped-aurora/gin-vue-admin.com.git
+[submodule "react-playground/react-beautiful-dnd"]
+	path = react-playground/react-beautiful-dnd
+	url = git@github.com:atlassian/react-beautiful-dnd.git
+[submodule "sa-projects/pet-borad"]
+	path = sa-projects/pet-borad
+	url = git@gitee.com:zhai-duyi/pet-borad.git
+[submodule "imilate-vue-playground/repl"]
+	path = imilate-vue-playground/repl
+	url = git@github.com:vuejs/repl.git
+[submodule "ioc-playground/ioc-container"]
+	path = ioc-playground/ioc-container
+	url = git@github.com:fengshi123/ioc-container.git
