@@ -44,3 +44,12 @@
 [submodule "fe-test/vue3-dida"]
 	path = fe-test/vue3-dida
 	url = git@github.com:cuixiaorui/vue3-dida.git
+[submodule "ant-design/X6"]
+	path = ant-design/X6
+	url = git@github.com:antvis/X6.git
+[submodule "ant-design/G"]
+	path = ant-design/G
+	url = git@github.com:antvis/G.git
+[submodule "ant-design/G2"]
+	path = ant-design/G2
+	url = git@github.com:antvis/G2.git
