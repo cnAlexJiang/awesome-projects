@@ -53,3 +53,9 @@
 [submodule "ant-design/G2"]
 	path = ant-design/G2
 	url = git@github.com:antvis/G2.git
+[submodule "fe-source/minipack"]
+	path = fe-source/minipack
+	url = git@github.com:ronami/minipack.git
+[submodule "react-playground/jstraining"]
+	path = react-playground/jstraining
+	url = git@github.com:ruanyf/jstraining.git
