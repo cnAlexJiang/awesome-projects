@@ -59,3 +59,9 @@
 [submodule "react-playground/jstraining"]
 	path = react-playground/jstraining
 	url = git@github.com:ruanyf/jstraining.git
+[submodule "node-frameworks/fast-json-stringify"]
+	path = node-frameworks/fast-json-stringify
+	url = git@github.com:fastify/fast-json-stringify.git
+[submodule "ant-design/ant-design"]
+	path = ant-design/ant-design
+	url = git@github.com:ant-design/ant-design.git
