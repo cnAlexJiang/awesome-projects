@@ -1,8 +1,8 @@
 const dayjs = require('dayjs');
 const puppeteer = require('puppeteer'); // v13.0.0 or later
-const username = 'jiangyi@corp-ci.com';
-const password = 'jy19950301,'
-const start = '2017-03-27'; // 入职时间
+const username = '';
+const password = ''
+const start = ''; // 入职时间
 
 
 (async () => {
