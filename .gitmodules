@@ -65,3 +65,9 @@
 [submodule "ant-design/ant-design"]
 	path = ant-design/ant-design
 	url = git@github.com:ant-design/ant-design.git
+[submodule "fe-source/lodash"]
+	path = fe-source/lodash
+	url = git@github.com:lodash/lodash.git
+[submodule "fe-source/core"]
+	path = fe-source/core
+	url = git@github.com:vuejs/core.git
