@@ -83,3 +83,6 @@
 [submodule "fe-source/core"]
 	path = fe-source/core
 	url = git@github.com:vuejs/core.git
+[submodule "sa-projects/saasbook"]
+	path = sa-projects/saasbook
+	url = git@github.com:it2025/saasbook.git
