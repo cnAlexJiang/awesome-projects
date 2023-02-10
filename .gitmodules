@@ -23,7 +23,6 @@
 [submodule "imilate-vue-playground/vue2-mini"]
 	path = imilate-vue-playground/vue2-mini
 	url = git@github.com:DesBisous/vue2-mini.git
- 
 [submodule "antv-projects/G"]
 	path = antv-projects/G
 	url = git@github.com:antvis/G.git
@@ -51,3 +50,36 @@
 [submodule "ioc-playground/ioc-container"]
 	path = ioc-playground/ioc-container
 	url = git@github.com:fengshi123/ioc-container.git
+[submodule "graphql-use/dota_demo"]
+	path = graphql-use/dota_demo
+	url = git@gitee.com:wpsw/dota_demo.git
+[submodule "fe-test/vue3-dida"]
+	path = fe-test/vue3-dida
+	url = git@github.com:cuixiaorui/vue3-dida.git
+[submodule "ant-design/X6"]
+	path = ant-design/X6
+	url = git@github.com:antvis/X6.git
+[submodule "ant-design/G"]
+	path = ant-design/G
+	url = git@github.com:antvis/G.git
+[submodule "ant-design/G2"]
+	path = ant-design/G2
+	url = git@github.com:antvis/G2.git
+[submodule "fe-source/minipack"]
+	path = fe-source/minipack
+	url = git@github.com:ronami/minipack.git
+[submodule "react-playground/jstraining"]
+	path = react-playground/jstraining
+	url = git@github.com:ruanyf/jstraining.git
+[submodule "node-frameworks/fast-json-stringify"]
+	path = node-frameworks/fast-json-stringify
+	url = git@github.com:fastify/fast-json-stringify.git
+[submodule "ant-design/ant-design"]
+	path = ant-design/ant-design
+	url = git@github.com:ant-design/ant-design.git
+[submodule "fe-source/lodash"]
+	path = fe-source/lodash
+	url = git@github.com:lodash/lodash.git
+[submodule "fe-source/core"]
+	path = fe-source/core
+	url = git@github.com:vuejs/core.git
