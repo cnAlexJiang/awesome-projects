@@ -71,3 +71,15 @@
 [submodule "fe-source/core"]
 	path = fe-source/core
 	url = git@github.com:vuejs/core.git
+[submodule "fe-source/verdaccio"]
+	path = fe-source/verdaccio
+	url = git@github.com:verdaccio/verdaccio.git
+[submodule "fe-source/pm2"]
+	path = fe-source/pm2
+	url = git@github.com:Unitech/pm2.git
+[submodule "fe-source/changesets"]
+	path = fe-source/changesets
+	url = git@github.com:changesets/changesets.git
+[submodule "fe-engineering/pnpm-monorepo-learn"]
+	path = fe-engineering/pnpm-monorepo-learn
+	url = git@github.com:JohnnyZhangQiao/pnpm-monorepo-learn.git
