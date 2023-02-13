@@ -83,3 +83,12 @@
 [submodule "fe-engineering/pnpm-monorepo-learn"]
 	path = fe-engineering/pnpm-monorepo-learn
 	url = git@github.com:JohnnyZhangQiao/pnpm-monorepo-learn.git
+[submodule "full-stack-playground/nextjs-components-docs"]
+	path = full-stack-playground/nextjs-components-docs
+	url = git@github.com:maqi1520/nextjs-components-docs.git
+[submodule "sa-projects/lowcode-engine"]
+	path = sa-projects/lowcode-engine
+	url = git@github.com:alibaba/lowcode-engine.git
+[submodule "full-stack-playground/express-openai-api"]
+	path = full-stack-playground/express-openai-api
+	url = git@github.com:cnAlexJiang/express-openai-api.git
