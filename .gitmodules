@@ -92,3 +92,12 @@
 [submodule "full-stack-playground/express-openai-api"]
 	path = full-stack-playground/express-openai-api
 	url = git@github.com:cnAlexJiang/express-openai-api.git
+[submodule "sa-projects/react-low-code/vitis-lowcode-engine"]
+	path = sa-projects/react-low-code/vitis-lowcode-engine
+	url = git@github.com:react-low-code/vitis-lowcode-engine.git
+[submodule "sa-projects/react-low-code/vitis-server"]
+	path = sa-projects/react-low-code/vitis-server
+	url = git@github.com:react-low-code/vitis-server.git
+[submodule "openai-playground/Learning-By-GPT"]
+	path = openai-playground/Learning-By-GPT
+	url = git@github.com:lxfater/Learning-By-GPT.git
