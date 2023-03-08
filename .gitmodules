@@ -101,3 +101,9 @@
 [submodule "openai-playground/Learning-By-GPT"]
 	path = openai-playground/Learning-By-GPT
 	url = git@github.com:lxfater/Learning-By-GPT.git
+[submodule "ant-design/G6"]
+	path = ant-design/G6
+	url = https://github.com/antvis/G6.git
+[submodule "fe-engineering/yarn-lerna-workplace"]
+	path = fe-engineering/yarn-lerna-workplace
+	url = https://github.com/wzf1997/fly.git
