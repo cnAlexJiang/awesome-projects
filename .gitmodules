@@ -107,3 +107,12 @@
 [submodule "fe-engineering/yarn-lerna-workplace"]
 	path = fe-engineering/yarn-lerna-workplace
 	url = https://github.com/wzf1997/fly.git
+[submodule "sa-projects/Luckysheet"]
+	path = sa-projects/Luckysheet
+	url = git@github.com:dream-num/Luckysheet.git
+[submodule "fe-source/async-validator"]
+	path = fe-source/async-validator
+	url = https://github.com/yiminghe/async-validator.git
+[submodule "fe-source/quark-design"]
+	path = fe-source/quark-design
+	url = git@github.com:hellof2e/quark-design.git
