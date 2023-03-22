@@ -14,6 +14,18 @@
 [submodule "ng-learn/ngx-admin"]
 	path = ng-learn/ngx-admin
 	url = git@github.com:akveo/ngx-admin.git
+[submodule "antv-projects/G6"]
+	path = antv-projects/G6
+	url = git@github.com:antvis/G6.git
+[submodule "antv-projects/X6"]
+	path = antv-projects/X6
+	url = git@github.com:antvis/X6.git
+[submodule "imilate-vue-playground/vue2-mini"]
+	path = imilate-vue-playground/vue2-mini
+	url = git@github.com:DesBisous/vue2-mini.git
+[submodule "antv-projects/G"]
+	path = antv-projects/G
+	url = git@github.com:antvis/G.git
 [submodule "fe-source/source-tour"]
 	path = fe-source/source-tour
 	url = git@github.com:course-dasheng/source-tour.git
@@ -71,6 +83,9 @@
 [submodule "fe-source/core"]
 	path = fe-source/core
 	url = git@github.com:vuejs/core.git
+[submodule "sa-projects/saasbook"]
+	path = sa-projects/saasbook
+	url = git@github.com:it2025/saasbook.git
 [submodule "fe-source/verdaccio"]
 	path = fe-source/verdaccio
 	url = git@github.com:verdaccio/verdaccio.git
