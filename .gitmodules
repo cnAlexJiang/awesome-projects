@@ -131,3 +131,6 @@
 [submodule "fe-source/quark-design"]
 	path = fe-source/quark-design
 	url = git@github.com:hellof2e/quark-design.git
+[submodule "sa-projects/canvas-sa/vue-fabric-editor"]
+	path = sa-projects/canvas-sa/vue-fabric-editor
+	url = git@github.com:cnAlexJiang/vue-fabric-editor.git

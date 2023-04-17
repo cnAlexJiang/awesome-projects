@@ -13,4 +13,4 @@
 
 - [x] async-validator 一个ts的校验库
 
-- [] 基于web component 实现的组件库
+- []  基于web component 实现的组件库
