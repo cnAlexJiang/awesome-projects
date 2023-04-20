@@ -134,3 +134,6 @@
 [submodule "sa-projects/canvas-sa/vue-fabric-editor"]
 	path = sa-projects/canvas-sa/vue-fabric-editor
 	url = git@github.com:cnAlexJiang/vue-fabric-editor.git
+[submodule "sa-projects/chatgpt-webui/chatgpt-web"]
+	path = sa-projects/chatgpt-webui/chatgpt-web
+	url = git@github.com:Chanzhaoyu/chatgpt-web.git
