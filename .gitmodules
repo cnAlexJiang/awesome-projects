@@ -137,3 +137,6 @@
 [submodule "sa-projects/chatgpt-webui/chatgpt-web"]
 	path = sa-projects/chatgpt-webui/chatgpt-web
 	url = git@github.com:Chanzhaoyu/chatgpt-web.git
+[submodule "fe-source/mdn-office-demos/dom-examples"]
+	path = fe-source/mdn-office-demos/dom-examples
+	url = git@github.com:mdn/dom-examples.git
