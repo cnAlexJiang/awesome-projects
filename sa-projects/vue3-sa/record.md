@@ -1,0 +1,2 @@
+- []  V3 Admin Vite 中文文档 https://juejin.cn/post/7089377403717287972
+  - git@github.com:un-pany/v3-admin-vite.git

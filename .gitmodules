@@ -140,3 +140,9 @@
 [submodule "fe-source/mdn-office-demos/dom-examples"]
 	path = fe-source/mdn-office-demos/dom-examples
 	url = git@github.com:mdn/dom-examples.git
+[submodule "sa-projects/vue3-sa/vite-templates"]
+	path = sa-projects/vue3-sa/vite-templates
+	url = git@github.com:jeddygong/vite-templates.git
+[submodule "sa-projects/vue3-sa/v3-admin-vite"]
+	path = sa-projects/vue3-sa/v3-admin-vite
+	url = git@github.com:un-pany/v3-admin-vite.git
