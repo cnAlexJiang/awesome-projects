@@ -146,3 +146,6 @@
 [submodule "sa-projects/vue3-sa/v3-admin-vite"]
 	path = sa-projects/vue3-sa/v3-admin-vite
 	url = git@github.com:un-pany/v3-admin-vite.git
+[submodule "fe-engineering/nextjs-components-docs"]
+	path = fe-engineering/nextjs-components-docs
+	url = git@github.com:maqi1520/nextjs-components-docs.git
