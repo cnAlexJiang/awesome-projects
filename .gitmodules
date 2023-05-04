@@ -149,3 +149,9 @@
 [submodule "fe-engineering/nextjs-components-docs"]
 	path = fe-engineering/nextjs-components-docs
 	url = git@github.com:maqi1520/nextjs-components-docs.git
+[submodule "sa-projects/browser-extension-sa/extension-qiniu-pic"]
+	path = sa-projects/browser-extension-sa/extension-qiniu-pic
+	url = git@github.com:maqi1520/extension-qiniu-pic.git
+[submodule "sa-projects/socket-sa/chat-we"]
+	path = sa-projects/socket-sa/chat-we
+	url = git@github.com:hanwenma/chat-we.git
